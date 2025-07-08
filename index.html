@@ -3,42 +3,53 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHubリンク付きホームページ</title>
+  <title>ホームページ</title>
   <style>
     body {
       font-family: sans-serif;
+      padding: 40px;
+      background-color: #f9f9f9;
+    }
+
+    h1 {
       text-align: center;
-      padding: 50px;
-      background-color: #f0f0f0;
     }
 
-    a.github-link {
-      display: inline-block;
-      padding: 15px 25px;
-      font-size: 20px;
-      color: white;
-      background-color: #333;
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 300px;
+      margin: 30px auto;
+    }
+
+    li {
+      margin: 15px 0;
+      text-align: center;
+    }
+
+    a {
+      color: #007acc;
       text-decoration: none;
-      border-radius: 8px;
-      transition: background-color 0.3s;
+      font-size: 20px;
     }
 
-    a.github-link:hover {
-      background-color: #555;
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-  <h1>公開中のツール</h1>
-  <p>ツールはこちらからアクセスできます。</p>
+  <h1>公開中のページ</h1>
+  <p style="text-align:center;">以下のリンクから各ページに移動できます。</p>
 
-  <!-- ここに自分のGitHubページURLを入れてね -->
-  <a class="github-link" href="https://tamani3901.github.io/3DdotCAD/" target="_blank">3DドットCAD</a>
-<a class="github-link" href="https://tamani3901.github.io/3Dhennkann/" target="_blank">自動3Dドット変換ツール</a>
-<a class="github-link" href="https://tamani3901.github.io/Anime-syonn/" target="_blank">3Dドットアニメーション作成ツール</a>
-<a class="github-link" href="https://tamani3901.github.io/Name-syonn1/" target="_blank">3D風ドットアニメーション作成ツール</a>
-<a class="github-link" href="https://tamani3901.github.io/Tukaikata/" target="_blank">使い方</a>
+  <ul>
+    <li><a href="https://tamani3901.github.io/3DdotCAD/" target="_blank">3DドットCAD</a></li>
+    <li><a href="https://tamani3901.github.io/3Dhennkann/"target="_blank">自動3Dドット変換ツール</a></li>
+    <li><a href="https://tamani3901.github.io/Anime-syonn/"target="_blank">3Dドットアニメーション作成ツール</a></li>
+　　 <li><a href="https://tamani3901.github.io/Name-syonn1/"target="_blank">3D風ドットアニメーション作成ツール</a></li>
+　　 <li><a href="https://tamani3901.github.io/Tukaikata/"target="_blank">ツールの使い方</a></li>
+  </ul>
 
 </body>
 </html>
